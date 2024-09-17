@@ -1,0 +1,146 @@
+/* Corps de la page */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1e9da;
+    color: #1d3557;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête et pied de page */
+header, footer {
+    background-color: #e63946;
+    color: white;
+    padding: 20px;
+}
+
+/* Titres principaux */
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #1d3557;
+}
+
+/* Titres et paragraphes */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+/* Sections et articles */
+article, aside {
+    background-color: #ffb7c3;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 90%;
+    box-sizing: border-box;
+    color: #1d3557;
+}
+
+/* Boutons CTA */
+a.btn {
+    background-color: #e63946;
+    border-color: #e63946;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a.btn:hover {
+    background-color: #ffb7c3;
+    color: #e63946;
+}
+
+/* Bouton retour à la home page */
+a.home-btn {
+    background-color: #1d3557;
+    border-color: #1d3557;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a.home-btn:hover {
+    background-color: #ffb7c3;
+    color: #1d3557;
+}
+
+/* Pied de page */
+footer p {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+/* Pied de page liens */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffb7c3;
+}
+
+/* Carousel */
+.carousel-inner {
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    color: #1d3557;
+}
+
+.carousel-caption a {
+    color: #e63946;
+    background-color: white;
+    border: 2px solid #e63946;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.carousel-caption a:hover {
+    color: white;
+    background-color: #e63946;
+}
+
+/* Adaptabilité mobile */
+@media (max-width: 768px) {
+    article, aside {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
